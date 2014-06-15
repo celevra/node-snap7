@@ -4,10 +4,12 @@
 */
 
 #include "node_snap7_client.h"
+#include "node_snap7_server.h"
 
 extern "C"{
 	void InitAll(v8::Handle<v8::Object> exports) {
 		node_snap7::S7Client::Init(exports);
+		node_snap7::S7Server::Init(exports);
 	}
 }
 

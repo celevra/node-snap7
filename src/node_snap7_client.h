@@ -3,8 +3,8 @@
  * MIT +no-false-attribs License <https://github.com/mathiask88/node-snap7/blob/master/LICENSE>
  */
 
-#ifndef __node_snap7_h__
-#define __node_snap7_h__
+#ifndef __node_snap7_client_h__
+#define __node_snap7_client_h__
 
 #include <node.h>
 #include "nan.h"
