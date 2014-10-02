@@ -573,7 +573,7 @@ namespace node_snap7 {
     S7Client *s7client = ObjectWrap::Unwrap<S7Client>(args.This());
 
     if (args.Length() < 5)
-      return NanThrowTypeError("Wrong number of Arguments");
+      return NanThrowTypeError("Wrong number of arguments");
 
     if (!args[0]->IsNumber() || !args[1]->IsNumber() ||
         !args[2]->IsNumber() || !args[3]->IsNumber() ||
@@ -615,7 +615,7 @@ namespace node_snap7 {
     S7Client *s7client = ObjectWrap::Unwrap<S7Client>(args.This());
 
     if (args.Length() < 6)
-      return NanThrowTypeError("Wrong number of Arguments");
+      return NanThrowTypeError("Wrong number of arguments");
 
     if (!args[0]->IsNumber() || !args[1]->IsNumber() ||
         !args[2]->IsNumber() || !args[3]->IsNumber() ||
